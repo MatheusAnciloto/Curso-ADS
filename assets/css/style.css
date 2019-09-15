@@ -104,5 +104,57 @@
     padding-bottom: 30px;
 }
 
+.imagem{
+    padding-top: 15px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.imagem__nome{
+    color: #00420C;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+
+/* --- RODAPÉ --- */
+
+.rodape{
+    background-color: #00420C;
+}
+
+.endereco{
+    padding-top: 10px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+}
+
+.rodape__titulo{
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.rodape__texto{
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F2F2F2;
+    text-shadow: 0px 2px 2px #00000040;
+
+}
+
 
 
