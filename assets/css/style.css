@@ -160,6 +160,22 @@
     border-bottom: 1px solid #000000;
 }
 
+.professor__nome{
+    display: flex;
+    color: #00420C;
+    font-size: 18px;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.professor__image{
+    display: inline-block;
+    float: left;
+}
+
+
+
 
 /* --- RODAPÉ --- */
 
