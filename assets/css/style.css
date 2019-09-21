@@ -180,6 +180,37 @@
 }
 
 
+.contato{
+    border: 0;
+    width: 325px;
+    border-bottom: 2px solid #00420C;
+}
+
+.contato__label{
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #00420C;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.contato__button{
+    color: white;
+    background-color: #117A25;
+    width: 325px;
+    border-radius: 5px;
+    height: 39px;
+    font-family: 'Robot', 'sans-serif';
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    border: #117A25 1px solid;
+}
+
 /* --- RODAPÉ --- */
 
 .rodape{
