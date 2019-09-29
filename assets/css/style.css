@@ -226,6 +226,20 @@ table td{
     color: #000000;
 }
 
+@media(min-width: 720px){
+    table{
+        width: 520px;
+        display: inline-block;
+        margin: -2px;
+    }
+
+    table th{
+        width: 520px;
+    }
+
+
+}
+
 
 .helper{
     border-bottom: 1px solid #000000;
