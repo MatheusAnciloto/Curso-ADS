@@ -196,25 +196,27 @@
 }
 
 
-
-.table{
-    padding-top: 25px;
-
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 345px;
 }
 
-.table__header{
+table th{
     background-color: #e5e5e5;
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     color: #000000;
     padding: 4px;
+    width: 345px;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    border: 1px solid #000000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
-.table__content{
+table td{
     padding: 5px;
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
@@ -224,43 +226,11 @@
     color: #000000;
 }
 
-.border{
-    border: 1px solid #000000;
-    border-top: 0;
-    border-bottom: 0;
-}
-
 
 .helper{
     border-bottom: 1px solid #000000;
 }
 
-.resize{
-    /* test */
-}
-
-@media(min-width: 720px){
-    .table{
-        
-    }
-
-    .table__header{
-    }
-    .table__content{
-    }
-
-    .border{
-    }
-
-    .resize{
-        display: flex;
-        flex-direction: column;
-        flex: 45%;
-        width: 50%;
-        align-content: flex-start;
-        flex-wrap: wrap;
-    }
-}
 
 .professor__nome{
     color: #00420C;
